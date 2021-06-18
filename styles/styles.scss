@@ -38,6 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    top: 0;
 
     & .basket-container span {  
         color: #fff;
@@ -48,11 +49,83 @@ body {
 
 .main-header {
     background-image: url(../images/main-pic.png);
+
     width: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 67px;
+    padding: 0 16px;
+    padding-bottom: 52px;
+
+    & .logo  {
+        opacity: 0.3;
+        display: flex;
+        align-items: flex-end;
+        padding-top: 213px;
+
+        // & .logo-razor img {
+        //     height: 92px;
+        // }
+
+        & .logo-barbershop img:first-child {
+            margin-bottom: 10px;
+        }
+    }
+    
+
+    & p {
+        color: $light-text;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
 
     & input {
         color: #fff;
         background-color: $man-brand-color;
-        outline: none;
+        padding: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 4px;
+        border: 2px solid transparent;
+        width: 100%;
+    }
+
+    & input:hover {
+        border: 2px solid $man-brand-color;
+        background-color: $hover-btn;
+    }
+}
+
+.our-servises {
+    line-height: 20px;
+    font-size: 16px;
+    color: $light-text;
+
+    & .title-block {
+        padding: 32px 0 16px 0;
+
+        & h2 {
+            color: $man-brand-color;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    & .servises {
+        background-color: $dark-text;
+        padding: 32px 16px;
+        
+        & .servise-item {
+            display: flex;
+            margin-bottom: 24px;
+
+            & .servise-content h3 {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 16px;
+            }
+        }
+
+
     }
 }
