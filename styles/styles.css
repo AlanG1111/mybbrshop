@@ -1,0 +1,55 @@
+@import "./reset.css";
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/Montserrat-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Monserrat";
+}
+
+.menu-bar {
+  width: 100%;
+  background-color: #222222;
+  padding: 18px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+}
+.menu-bar .basket-container span {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.main-header {
+  background-image: url(../images/main-pic.png);
+  width: 100%;
+}
+.main-header input {
+  color: #fff;
+  background-color: #FF7A00;
+  outline: none;
+}/*# sourceMappingURL=styles.css.map */
