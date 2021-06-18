@@ -1,7 +1,6 @@
 {
   "name": "barbershop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.14"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanG1111/mybbrshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlanG1111/mybbrshop/issues"
+  },
+  "homepage": "https://github.com/AlanG1111/mybbrshop#readme",
+  "description": ""
 }
