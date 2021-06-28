@@ -7,92 +7,434 @@
     <title>Barber Shop</title>
 </head>
 <body>
-    <div class="menu-bar">
-        <img src="./images/icons/burger-menu.svg" alt="menu">
+    <div class="menu-bar hover">
+        <img class="burger-button" src="./images/icons/burger-menu.svg" alt="menu">
+        <sidebar class="sidebar active">
+            <div class="menu">
+                <div class="close-button">
+                    <img src="./images/icons/close-button.svg" alt="X">
+                </div>
+                <div class="small-logo">
+                    <div class="small-logo-razor">
+                        <img src="./images/logo/footer-razor-mob.svg" alt="razor">
+                    </div>
+                    <div class="small-logo-barbershop">
+                        <img src="./images/logo/footer-barber-mob.svg" alt="barber">
+                        <img src="./images/logo/footer-shop-mob.svg" alt="shop">
+                    </div>
+                    <img src="./images/logo/footer-Ellipse-mob.svg" alt="dott">
+                </div>
+                <nav>
+                    <ul class="footer-menu">
+                        <li><a href="#" class="footer-menu-link active-link">Home</a></li>
+                        <li><a href="#" class="footer-menu-link">Shop</a></li>
+                        <li><a href="#" class="footer-menu-link">Gallery</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-buttons">
+                    <input type="submit" value="contact us">
+                    <input type="submit" value="book now">
+                </div>
+            </div>
+        </sidebar>
         <div class="basket-container">
             <img src="./images/icons/basket.svg" alt="basket">
-            <span>0</span>
+            <img src="./images/icons/0.svg" alt="0">
         </div>
     </div>
     <header class="main-header">
-        <div class="logo">
-            <div class="logo-razor">
-                <img src="./images/icons/icon6.svg" alt="razor">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-razor">
+                    <img src="./images/logo/razor-mob.svg" alt="razor">
+                </div>
+                <div class="logo-barbershop">
+                    <img src="./images/logo/Barber-mob.svg" alt="barber">
+                    <img src="./images/logo/Shop-mob.svg" alt="shop">
+                </div>
+                <div class="logo-dott">
+                    <img src="./images/logo/Ellipse-mob.svg" alt="dott">
+                </div>
             </div>
-            <div class="logo-barbershop">
-                <img src="./images/icons/Barber-mob.svg" alt="barber">
-                <img src="./images/icons/Shop-mob.svg" alt="shop">
-            </div>
-            <div class="logo-dott">
-                <img src="./images/icons/Ellipse-mob.svg" alt="dott">
-            </div>
+            <p>
+                Our barbershop  is a place of style and mutual understanding
+                 in which it is pleasant to spend time.
+            </p>
+            <input type="submit" value="book now">
         </div>
-        <p>
-            Our barbershop  is a place of style and mutual understanding
-             in which it is pleasant to spend time.
-        </p>
-        <input type="submit" value="book now">
     </header>
-    <section class="our-servises">
-        <div class="title-block">
-            <h2>our servises</h2>
-        </div>
-        <div class="servises">
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon1.svg" alt="pic1">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
-                </div>
+    <section class="section">
+        <div class="our-services">
+            <div class="title-block">
+                <h2>our services</h2>
             </div>
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon2.svg" alt="pic2">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
-                </div>
-            </div>
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon3.svg" alt="pic3">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
-                </div>
-            </div>
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon4.svg" alt="pic4">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
-                </div>
-            </div>
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon5.svg" alt="pic5">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
-                </div>
-            </div>
-            <div class="servise-item">
-                <div class="servise-image">
-                    <img src="./images/icons/icon6.svg" alt="pic6">
-                </div>
-                <div class="servise-content">
-                    <h3>man`s haircut</h3>
-                    <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+            <div class="container">
+                <div class="services">
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon1.svg" alt="pic1">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon2.svg" alt="pic2">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon3.svg" alt="pic3">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon4.svg" alt="pic4">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon5.svg" alt="pic5">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-image">
+                            <img src="./images/services/icon6.svg" alt="pic6">
+                        </div>
+                        <div class="service-content">
+                            <h3>man`s haircut</h3>
+                            <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="section">
+        <div class="our-team">
+            <div class="container">
+                <div class="title-block">
+                    <h2>our team</h2>
+                </div>
+                <div class="image-block">
+                    <img class="barber-img-hidden" src="./images/barbers/man-2.png" alt="man">
+                    <img class="barber-mobile" src="./images/barbers/man-1.png" alt="man">
+                    <img class="barber-img-hidden" src="./images/barbers/man-3.png" alt="man">
+                    <img class="barber-img-hidden" src="./images/barbers/man-4.png" alt="man">
+                    <div class="arrow-right-container">
+                        <img src="./images/icons/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="barber-interview">
+                    <h3>jorge jones</h3>
+                    <p>
+                        - How did you become a barber? <br>
+                        - I decided to master the creative profession. And he found himself 
+                        precisely in this. So my life has changed dramatically. <br>
+                        - What exactly do you like in your profession? Why are you blissing? <br>
+                        - I like to work in a men's team, communicating with interesting people. <br>
+                        - Why should a person who wants a haircut choose you? <br>
+                        - Because I'm old and charismatic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-booking">
+        <div class="booking">
+            <div class="header-booking">
+                <h3>Book an appointment right now!</h3>
+                <span>Please complete all these fields.</span>
+            </div>
+            <form action="#" method="POST">
+                <div class="input-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" value="Gregory Simmmons" required>
+                </div>
+                <div class="date-time-input">
+                    <div class="input-item">
+                        <label for="date">Date:</label>
+                        <input type="text" id="date" name="booking_date" value="Enter date" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="time">Time:</label>
+                        <input type="text" id="time" name="booking_time" value="Enter time" required>
+                    </div>
+                </div>
+
+                <div class="choose-master">
+                    <div class="choose-title"><span>Choose master</span></div>
+                    <div class="choose-items">
+                        <input type="radio" name="radio" id="radio_1">
+                        <label class="label-radio" for="radio_1">Choose something</label>
+
+                        <input type="radio" name="radio" id="radio_2">
+                        <label class="label-radio" for="radio_2">Choose something</label>
+
+                        <input type="radio" name="radio" id="radio_3">
+                        <label class="label-radio" for="radio_3">Choose something</label>
+
+                        <input type="radio" name="radio" id="radio_4">
+                        <label class="label-radio" for="radio_4">Choose something</label>
+
+                    </div>
+                </div>
+
+                <div class="choose-master">
+                    <div class="choose-title"><span>Choose master</span></div>
+                    <div class="choose-items">
+                        <input type="checkbox" name="checkbox" id="checkbox_1">
+                        <label class="label-checkbox" for="checkbox_1">Choose something</label>
+
+                        <input type="checkbox" name="checkbox" id="checkbox_2">
+                        <label class="label-checkbox" for="checkbox_2">Choose something</label>
+
+                        <input type="checkbox" name="checkbox" id="checkbox_3">
+                        <label class="label-checkbox" for="checkbox_3">Choose something</label>
+
+                        <input type="checkbox" name="checkbox" id="checkbox_4">
+                        <label class="label-checkbox" for="checkbox_4">Choose something</label>
+
+                        <input type="checkbox" name="checkbox" id="checkbox_3" class="hidden-label">
+                        <label class="label-checkbox hidden-checkbox" for="checkbox_3">Choose something</label>
+
+                        <input type="checkbox" name="checkbox" id="checkbox_4" class="hidden-label">
+                        <label class="label-checkbox hidden-checkbox" for="checkbox_4">Choose something</label>
+                    </div>
+                </div>
+
+                <input type="submit" value="book now">
+            </form>
+        </div>
+    </section>
+    <section class="section">
+        <div class="product-container">
+            <div class="product-title">
+                <h2>popular products</h2>
+            </div>
+            <div class="product-cards-container">
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="./images/shop-pic.png" alt="product">
+                    </div>
+                    <div class="product-description">
+                        <div class="prod-name">
+                            <h4>Barbers</h4>
+                        </div>
+                        <div class="prod-paragraph">
+                            <span>Premium beard balm <br> 50ml <br> New York original</span>
+                        </div>
+                        <div class="prod-price"><span>&#36; 490.00</span></div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="shop-now"><span>shop now</span></div>
+                        <div class="plus-btn"><span>+</span></div>
+                    </div>
+                </div>
+
+                <div class="product-card card-hidden">
+                    <div class="product-icon">
+                        <img src="./images/shop-pic.png" alt="product">
+                    </div>
+                    <div class="product-description">
+                        <div class="prod-name">
+                            <h4>Barbers</h4>
+                        </div>
+                        <div class="prod-paragraph">
+                            <span>Premium beard balm <br> 50ml <br> New York original</span>
+                        </div>
+                        <div class="prod-price"><span>&#36; 490.00</span></div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="shop-now"><span>shop now</span></div>
+                        <div class="plus-btn"><span>+</span></div>
+                    </div>
+                </div>
+
+                <div class="product-card card-hidden">
+                    <div class="product-icon">
+                        <img src="./images/shop-pic.png" alt="product">
+                    </div>
+                    <div class="product-description">
+                        <div class="prod-name">
+                            <h4>Barbers</h4>
+                        </div>
+                        <div class="prod-paragraph">
+                            <span>Premium beard balm <br> 50ml <br> New York original</span>
+                        </div>
+                        <div class="prod-price"><span>&#36; 490.00</span></div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="shop-now"><span>shop now</span></div>
+                        <div class="plus-btn"><span>+</span></div>
+                    </div>
+                </div>
+
+                <div class="product-card card-hidden">
+                    <div class="product-icon">
+                        <img src="./images/shop-pic.png" alt="product">
+                    </div>
+                    <div class="product-description">
+                        <div class="prod-name">
+                            <h4>Barbers</h4>
+                        </div>
+                        <div class="prod-paragraph">
+                            <span>Premium beard balm <br> 50ml <br> New York original</span>
+                        </div>
+                        <div class="prod-price"><span>&#36; 490.00</span></div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="shop-now"><span>shop now</span></div>
+                        <div class="plus-btn"><span>+</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-arrows">
+                <div class="left-arrow"><img src="./images/icons/arrow.svg" alt="arrow"></div>
+                <div class="right-arrow"><img src="./images/icons/arrow.svg" alt="arrow"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="our-team our-reviews">
+            <div class="container reviews-background">
+                <div class="title-block">
+                    <h2>our reviews</h2>
+                </div>
+                <div class="image-block">
+                    <div class="arrow-left-container">
+                        <img src="./images/icons/arrow.svg" alt="arrow">
+                    </div>
+                    <img class="barber-img-hidden" src="./images/barbers/man-2.png" alt="man">
+                    <img class="barber-mobile" src="./images/barbers/man-1.png" alt="man">
+                    <img class="barber-img-hidden" src="./images/barbers/man-3.png" alt="man">
+                    <img class="barber-img-hidden" src="./images/barbers/man-4.png" alt="man">
+                    <div class="arrow-right-container">
+                        <img src="./images/icons/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="barber-interview">
+                    <h3>jorge jones</h3>
+                    <p>
+                        - How did you become a barber? <br>
+                        - I decided to master the creative profession. And he found himself 
+                        precisely in this. So my life has changed dramatically. <br>
+                        - What exactly do you like in your profession? Why are you blissing? <br>
+                        - I like to work in a men's team, communicating with interesting people. <br>
+                        - Why should a person who wants a haircut choose you? <br>
+                        - Because I'm old and charismatic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-contact">
+        <div class="container">
+            <div class="contact-block">
+                <div class="contact-us">
+                    <h2>contact us</h2>
+                    <ul>
+                        <li>ukraine, kyiv</li>
+                        <li>str. oleshi 15, 6200</li>
+                        <li><a href="mailto:#">support@gmail.com</a></li>
+                        <li><a href="tel:#">+38 (044) 15 25 66 954</a></li>
+                    </ul>
+                    <div class="social">
+                        <a href="#">
+                            <img src="./images/social/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./images/social/youtube.svg" alt="youtube">
+                        </a>
+                        <a href="#">
+                            <img src="./images/social/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="schedule">
+                    <h2>shedule</h2>
+                    <div class="weekdays">
+                        <span>mon - fri</span><span>10:00 - 20:00</span>
+                    </div>
+                    <div class="weekends">
+                        <span>sat - sun</span><span>12:00 - 22:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <img src="./images/background/world-map.png" alt="world">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="small-logo">
+                <div class="small-logo-razor">
+                    <img src="./images/logo/footer-razor-mob.svg" alt="razor">
+                </div>
+                <div class="small-logo-barbershop">
+                    <img src="./images/logo/footer-barber-mob.svg" alt="barber">
+                    <img src="./images/logo/footer-shop-mob.svg" alt="shop">
+                </div>
+                <img src="./images/logo/footer-Ellipse-mob.svg" alt="dott">
+            </div>
+            <div class="footer-menu-container">
+                <nav>
+                    <ul class="footer-menu">
+                        <li><a href="#" class="footer-menu-link active-link">Home</a></li>
+                        <li><a href="#" class="footer-menu-link">Shop</a></li>
+                        <li><a href="#" class="footer-menu-link">Gallery</a></li>
+                        <li><a href="#" class="footer-menu-link">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-visit">
+                    <h3>visit us</h3>
+                    <ul>
+                        <li>Ukraine, Kyiv</li>
+                        <li>str. Oleshi 15, 6200</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>contact us</h3>
+                    <ul>
+                        <li><a href="mailto:#">support@gmail.com</a></li>
+                        <li><a href="tel:#">+38 (044) 15 25 66 954</a></li>
+                    </ul>
+                </div>
+                <div class="footer-follow-us">
+                    <h3>follow us</h3>
+                    <a href="#">
+                        <img src="./images/social/instagram-footer.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="./images/social/youtube-footer.svg" alt="youtube">
+                    </a>
+                    <a href="#">
+                        <img src="./images/social/facebook-footer.svg" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
