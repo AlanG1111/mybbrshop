@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Barber Shop</title>
 </head>
-<body>
+<body class="overflow-hidden">
     <div class="menu-bar hover">
         <img class="burger-button" src="./images/icons/burger-menu.svg" alt="menu">
         <sidebar class="sidebar active">
@@ -32,14 +32,71 @@
                     </ul>
                 </nav>
                 <div class="menu-buttons">
+                    <input class="contact-button" type="submit" value="contact us">
+                    <input class="booking-button" type="submit" value="book now">
+                </div>
+            </div>
+        </sidebar>
+        <div class="popup-bg">
+            <div class="popup">
+                <div class="close-button-popup">
+                    <img src="./images/icons/close-button-popup.svg" alt="X">
+                </div>
+                <div class="popup-paragraph">
+                    <h3>Contact us !</h3>
+                    <p>Please leave your details and our manager will contact you within an hour.</p>
+                </div>
+                <form action="#" class="form-popup">
+                    <label for="name-popup">Name:</label>
+                    <input type="text" id="name-popup" value="Gregory Simmmons" name="name">
+        
+                    <label for="mail-popup">Email:</label>
+                    <input type="text" id="mail-popup" value="dwight.fleming@example.com" name="mail">
+        
+                    <label for="phone-popup">Phone:</label>
+                    <input type="text" id="phone-popup" value="(307) 555-0133" name="phone">
+        
+                    <label for="comment-popup">Your comment:</label>
+                    <textarea name="comment" id="comment-popup"  rows="6">Please leave your comment...</textarea>
+    
+                    <div class="popup-button">
+                        <input type="submit" value="Contact me">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="basket-container">
+            <img src="./images/icons/basket.svg" alt="basket">
+            <img src="./images/icons/0.svg" alt="0">
+        </div>
+    </div>
+    <div class="menu-desktop">
+        <div class="menu-desktop-container">
+            <div class="small-logo">
+                <div class="small-logo-razor">
+                    <img src="./images/logo/footer-razor-mob.svg" alt="razor">
+                </div>
+                <div class="small-logo-barbershop">
+                    <img src="./images/logo/footer-barber-mob.svg" alt="barber">
+                    <img src="./images/logo/footer-shop-mob.svg" alt="shop">
+                </div>
+                <img src="./images/logo/footer-Ellipse-mob.svg" alt="dott">
+            </div>
+            <div class="navigation-desktop">
+                <a href="#" class="footer-menu-link active-link">Home</a>
+                <a href="#" class="footer-menu-link">Shop</a>
+                <a href="#" class="footer-menu-link">Gallery</a>
+            </div>
+            <div class="buttons-desktop">
+                <div class="basket-container">
+                    <img src="./images/icons/basket.svg" alt="basket">
+                    <img src="./images/icons/0.svg" alt="0">
+                </div>
+                <div class="desktop-buttons">
                     <input type="submit" value="contact us">
                     <input type="submit" value="book now">
                 </div>
             </div>
-        </sidebar>
-        <div class="basket-container">
-            <img src="./images/icons/basket.svg" alt="basket">
-            <img src="./images/icons/0.svg" alt="0">
         </div>
     </div>
     <header class="main-header">
@@ -65,6 +122,8 @@
     </header>
     <section class="section">
         <div class="our-services">
+            <div class="background-services">
+            </div>
             <div class="title-block">
                 <h2>our services</h2>
             </div>
@@ -75,7 +134,7 @@
                             <img src="./images/services/icon1.svg" alt="pic1">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -84,7 +143,7 @@
                             <img src="./images/services/icon2.svg" alt="pic2">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -93,7 +152,7 @@
                             <img src="./images/services/icon3.svg" alt="pic3">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -102,7 +161,7 @@
                             <img src="./images/services/icon4.svg" alt="pic4">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -111,7 +170,7 @@
                             <img src="./images/services/icon5.svg" alt="pic5">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -120,7 +179,7 @@
                             <img src="./images/services/icon6.svg" alt="pic6">
                         </div>
                         <div class="service-content">
-                            <h3>man`s haircut</h3>
+                            <h3>Man`s haircut</h3>
                             <span>60 min. <br> 350 / 400 / 450 &#8372;</span>
                         </div>
                     </div>
@@ -134,26 +193,28 @@
                 <div class="title-block">
                     <h2>our team</h2>
                 </div>
-                <div class="image-block">
-                    <img class="barber-img-hidden" src="./images/barbers/man-2.png" alt="man">
-                    <img class="barber-mobile" src="./images/barbers/man-1.png" alt="man">
-                    <img class="barber-img-hidden" src="./images/barbers/man-3.png" alt="man">
-                    <img class="barber-img-hidden" src="./images/barbers/man-4.png" alt="man">
-                    <div class="arrow-right-container">
-                        <img src="./images/icons/arrow.svg" alt="arrow">
+                <div class="our-team-block">
+                    <div class="image-block">
+                        <img class="barber-img-hidden" src="./images/barbers/man-2.png" alt="man">
+                        <img class="barber-mobile" src="./images/barbers/man-1.png" alt="man">
+                        <img class="barber-img-hidden" src="./images/barbers/man-3.png" alt="man">
+                        <img class="barber-img-hidden" src="./images/barbers/man-4.png" alt="man">
+                        <div class="arrow-right-container">
+                            <img src="./images/icons/arrow.svg" alt="arrow">
+                        </div>
                     </div>
-                </div>
-                <div class="barber-interview">
-                    <h3>jorge jones</h3>
-                    <p>
-                        - How did you become a barber? <br>
-                        - I decided to master the creative profession. And he found himself 
-                        precisely in this. So my life has changed dramatically. <br>
-                        - What exactly do you like in your profession? Why are you blissing? <br>
-                        - I like to work in a men's team, communicating with interesting people. <br>
-                        - Why should a person who wants a haircut choose you? <br>
-                        - Because I'm old and charismatic.
-                    </p>
+                    <div class="barber-interview">
+                        <h3>jorge jones</h3>
+                        <p>
+                            - How did you become a barber? <br>
+                            - I decided to master the creative profession. And he found himself 
+                            precisely in this. So my life has changed dramatically. <br>
+                            - What exactly do you like in your profession? Why are you blissing? <br>
+                            - I like to work in a men's team, communicating with interesting people. <br>
+                            - Why should a person who wants a haircut choose you? <br>
+                            - Because I'm old and charismatic.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -213,22 +274,23 @@
                         <input type="checkbox" name="checkbox" id="checkbox_4">
                         <label class="label-checkbox" for="checkbox_4">Choose something</label>
 
-                        <input type="checkbox" name="checkbox" id="checkbox_3" class="hidden-label">
-                        <label class="label-checkbox hidden-checkbox" for="checkbox_3">Choose something</label>
+                        <input type="checkbox" name="checkbox" id="checkbox_6" class="hidden-label">
+                        <label class="label-checkbox hidden-checkbox" for="checkbox_6">Choose something</label>
 
-                        <input type="checkbox" name="checkbox" id="checkbox_4" class="hidden-label">
-                        <label class="label-checkbox hidden-checkbox" for="checkbox_4">Choose something</label>
+                        <input type="checkbox" name="checkbox" id="checkbox_5" class="hidden-label">
+                        <label class="label-checkbox hidden-checkbox" for="checkbox_5">Choose something</label>
                     </div>
                 </div>
-
-                <input type="submit" value="book now">
+                <div class="booking-button">
+                    <input type="submit" value="book now">
+                </div>
             </form>
         </div>
     </section>
     <section class="section">
-        <div class="product-container">
+        <div class="product-container container">
             <div class="product-title">
-                <h2>popular products</h2>
+                <h2>Popular products</h2>
             </div>
             <div class="product-cards-container">
 
@@ -316,8 +378,8 @@
         </div>
     </section>
     <section class="section">
-        <div class="our-team our-reviews">
-            <div class="container reviews-background">
+        <div class="our-team our-reviews reviews-background">
+            <div class="container">
                 <div class="title-block">
                     <h2>our reviews</h2>
                 </div>
